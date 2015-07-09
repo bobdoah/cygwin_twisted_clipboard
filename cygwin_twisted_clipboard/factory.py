@@ -5,8 +5,8 @@ from twisted.protocols.policies import LimitTotalConnectionsFactory
 from .protocols import PutClipboard, GetClipboard
 from .settings import PUT_CONNECTION_LIMIT
 
-class PutClipboardFactory(LimitTotalConnectionsFactory):
-    connectionLimit = PUT_CONNECTION_LIMIT
+class PutClipboardFactory(Factory):
+    #connectionLimit = PUT_CONNECTION_LIMIT
     def buildProtocol(self, addr):
         return PutClipboard()
 

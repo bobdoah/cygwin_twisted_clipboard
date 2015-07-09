@@ -13,5 +13,5 @@ setup(
             'cygwin-twisted-clipboard-server = cygwin_twisted_clipboard.server:main',
         ]
     },
-    install_requires=['Twisted>=15.2.1', ]
+    install_requires=['Twisted>=15.2.1', 'pyperclip']
 )
