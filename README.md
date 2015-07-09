@@ -1,2 +1,2 @@
-# cygwin_twisted_clipboard
-A twisted server which exposes cygwin's /dev/clipboard. 
+# twsited_pyperclip 
+A twisted server which exposes the clipboard using the pyperclip library
